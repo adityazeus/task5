@@ -1,0 +1,401 @@
+body {
+    margin: 0;
+    width: 1024px;
+    height: 798px;
+    background-color: #EEEEEE;
+}
+
+header {
+    position: fixed;
+    /* Makes the header fixed at the top */
+    top: 0;
+    /* Aligns it to the top of the viewport */
+    left: 0;
+    /* Aligns it to the left of the viewport */
+    width: 1024px;
+    /* Ensures the header spans the full width */
+    height: 56px;
+    /* Keeps the original height */
+    z-index: 1000;
+    /* Ensures the header is in front of other elements */
+    background-image: url(header\ pattern\ image.png);
+    /* Keeps the background */
+}
+
+.logo {
+    position: relative;
+    top: 11px;
+    left: 24px;
+    width: 134px;
+    height: 36px;
+    /* UI Properties */
+    opacity: 1;
+}
+
+main {
+    height: 668px;
+    margin-bottom: 55px;
+}
+
+footer {
+
+    width: 1024px;
+    height: 74px;
+    /* UI Properties */
+    opacity: 1;
+}
+
+.footer-top {
+    display: flex;
+    top: 724px;
+    left: 0px;
+    width: 1024px;
+    height: 34px;
+    /* UI Properties */
+    opacity: 1;
+}
+
+.footer-bottom {
+    display: flex;
+    top: 758px;
+    left: 0px;
+    width: 1024px;
+    height: 40px;
+    /* UI Properties */
+    background: #E0E1E1 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.About {
+    position: absolute;
+    top: 724px;
+    left: 447px;
+    width: 40px;
+    height: 18px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal medium 14px/18px Quicksand;
+    letter-spacing: 0px;
+    color: #1F7A54;
+    opacity: 1;
+}
+
+.Contact {
+    position: absolute;
+    top: 724px;
+    left: 505px;
+    width: 72px;
+    height: 18px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal medium 14px/18px Quicksand;
+    letter-spacing: 0px;
+    color: #1F7A54;
+    opacity: 1;
+}
+
+.divide {
+    position: absolute;
+    top: 724px;
+    left: 495px;
+    width: 0px;
+    height: 18px;
+    /* UI Properties */
+    border: 1px solid #0000001F;
+    opacity: 1;
+}
+
+.logo-footer {
+    position: absolute;
+    top: 766px;
+    left: 259px;
+    width: 90px;
+    height: 24px;
+    /* UI Properties */
+    opacity: 1;
+}
+
+.divide1 {
+    position: absolute;
+    /* Layout Properties */
+    top: 766px;
+    left: 365px;
+    width: 0px;
+    height: 24px;
+    /* UI Properties */
+    border: 1px solid #0000001F;
+    opacity: 1;
+}
+
+.copyright {
+    /* Layout Properties */
+    position: absolute;
+    top: 771px;
+    left: 381px;
+    width: 129px;
+    height: 15px;
+    /* UI Properties */
+    text-align: left;
+    font-family: 'Quicksand';
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #616161;
+    opacity: 1;
+}
+
+.copyright1 {
+    /* Layout Properties */
+    position: absolute;
+    top: 771px;
+    left: 518px;
+    width: 145px;
+    height: 15px;
+    /* UI Properties */
+    text-align: left;
+    font-family: 'Quicksand';
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #616161;
+    opacity: 1;
+}
+
+.copyright2 {
+    /* Layout Properties */
+    position: absolute;
+    top: 771px;
+    left: 660px;
+    width: 106px;
+    height: 15px;
+    /* UI Properties */
+    text-align: left;
+    font-family: 'Quicksand';
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #616161;
+    opacity: 1;
+}
+
+.form-container {
+    /* Layout Properties */
+    position: absolute;
+    border-top: 5px solid #3AC7EC;
+    border-radius: 2px;
+    top: 108px;
+    left: 268px;
+    width: 488px;
+    height: 584px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.back-button {
+    /* Layout Properties */
+    position: absolute;
+    top: 22px;
+    left: 32px;
+    width: 17px;
+    height: 26px;
+    /* UI Properties */
+    text-align: left;
+    letter-spacing: 0.65px;
+}
+
+button {
+    color: #1F7A54;
+    border: none;
+    background-color: #FFFFFF;
+    width: 17px;
+    height: 26px;
+}
+
+.form-text {
+    position: absolute;
+    top: 20px;
+    left: 126px;
+    width: 236px;
+    height: 30px;
+    /* UI Properties */
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #222222;
+    opacity: 1;
+}
+
+.radio-group {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    top: 82px;
+    left: 32px;
+}
+
+.radio-group label {
+    font-size: 16px;
+    color: #333;
+    font-family: Quicksand;
+    font-weight: 800;
+
+}
+
+/* Style for the radio buttons */
+.radio-group input[type="radio"] {
+    appearance: none;
+    /* Remove default styling */
+    width: 16px;
+    /* Outer circle size */
+    height: 16px;
+    /* Outer circle size */
+    border: 2px solid #1F7A54;
+    /* Green border */
+    border-radius: 50%;
+    /* Make it circular */
+    outline: none;
+    cursor: pointer;
+    margin-right: 8px;
+    background-color: #fff;
+    /* White background */
+    position: relative;
+    /* Required for pseudo-element positioning */
+}
+
+.radio-group input[type="radio"]:checked::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    /* Center vertically */
+    left: 50%;
+    /* Center horizontally */
+    transform: translate(-50%, -50%);
+    /* Adjust to center */
+    width: 10px;
+    /* Inner circle size */
+    height: 10px;
+    /* Inner circle size */
+    background-color: #1F7A54;
+    /* Green fill */
+    border-radius: 50%;
+    /* Make it circular */
+}
+
+.radio-group label {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    color: #616161;
+    /* Text color */
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    /* Space between labels */
+}
+
+.form-group {
+    margin-bottom: 16px;
+    position: relative;
+    top: 129px;
+    left: 30px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 4px;
+}
+
+.form-group input,
+.form-group select {
+    width: 424px;
+    height: 45px;
+    padding: 6px 10px;
+    color: #666;
+    /* Placeholder text color */
+    font-size: 14px;
+    font-family: Quicksand;
+    font-weight: 800;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    box-sizing: border-box;
+}
+
+input::placeholder {
+    font-family: 'Quicksand', sans-serif;
+    /* Change to your desired font */
+    font-size: 14px;
+    /* Adjust font size */
+    color: #666;
+    /* Placeholder text color */
+    font-weight: 800;
+    ;
+}
+
+.forgot-link {
+    font-size: 12px;
+    font-family: Quicksand;
+    font-weight: 800;
+    color: #00A28A;
+    text-decoration: none;
+    position: absolute;
+    left: 300px;
+    width: 142px;
+    height: 18px;
+    bottom: -18px;
+}
+
+.password-group {
+    margin-bottom: 24px;
+    top: 130px;
+}
+
+.password-wrapper {
+    position: relative;
+}
+
+.password-wrapper .eye-icon {
+    position: absolute;
+    left: 390px;
+    top: 10px;
+    color: #888;
+    cursor: pointer;
+}
+
+.checkbox-group {
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-bottom: 24px;
+    top: 135px;
+    left: 28px;
+}
+
+.checkbox-group input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.checkbox-group label {
+    font-size: 14px;
+    color: #333;
+}
+
+.login-btn {
+    position: relative;
+    width: 216px;
+    height: 40px;
+    padding: 12px;
+    font-size: 15px;
+    background-color: #00C389;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-weight: bold;
+    top: 140px;
+    left: 136px;
+}

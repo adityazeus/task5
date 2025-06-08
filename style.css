@@ -1,0 +1,156 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .login-container {
+    background-color: #fff;
+    width: 488px;
+    height: 584px;
+    border-radius: 10px;
+    padding: 20px 30px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  .back-arrow {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    cursor: pointer;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .radio-group {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+  }
+  
+  .radio-group label {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 16px;
+    position: relative;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 4px;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    box-sizing: border-box;
+  }
+  
+  .forgot-link {
+    font-size: 12px;
+    color: #00A28A;
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+    bottom: -18px;
+  }
+  
+  .password-group {
+    margin-bottom: 24px;
+  }
+  
+  .password-wrapper {
+    position: relative;
+  }
+  
+  .password-wrapper .eye-icon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #888;
+    cursor: pointer;
+  }
+  
+  .checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  
+  .checkbox-group input[type="checkbox"] {
+    margin-right: 8px;
+  }
+  
+  .checkbox-group label {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .login-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    background-color: #00C389;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-weight: bold;
+  }
+  
+  /* Style for the radio buttons */
+  .radio-group input[type="radio"] {
+    appearance: none; /* Remove default styling */
+    width: 16px; /* Outer circle size */
+    height: 16px; /* Outer circle size */
+    border: 2px solid #1F7A54; /* Green border */
+    border-radius: 50%; /* Make it circular */
+    outline: none;
+    cursor: pointer;
+    margin-right: 8px;
+    background-color: #fff; /* White background */
+    position: relative; /* Required for pseudo-element positioning */
+}
+
+.radio-group input[type="radio"]:checked::before {
+    content: '';
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust to center */
+    width: 10px; /* Inner circle size */
+    height: 10px; /* Inner circle size */
+    background-color: #1F7A54; /* Green fill */
+    border-radius: 50%; /* Make it circular */
+}
+
+.radio-group label {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 14px;
+  color: #616161; /* Text color */
+  display: flex;
+  align-items: center;
+  margin-right: 20px; /* Space between labels */
+}

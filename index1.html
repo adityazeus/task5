@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quantum Login</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <div class="login-container">
+    <div class="back-arrow">
+      <span class="material-icons">arrow_back</span>
+    </div>
+    <h2>Log in with Quantum</h2>
+
+    <div class="radio-group">
+      <label>
+          <input type="radio" name="schoolType" checked> District
+      </label>
+      <label>
+          <input type="radio" name="schoolType"> Independent school
+      </label>
+  </div>
+
+    <div class="form-group">
+      <label for="state">State*</label>
+      <select id="state">
+        <option>Alabama</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="district">District*</label>
+      <select id="district">
+        <option>Alabama School District</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="username">Username/Email ID*</label>
+      <input type="text" id="username" />
+      <a href="#" class="forgot-link">FORGOT USERNAME?</a>
+    </div>
+
+    <div class="form-group password-group">
+      <label for="password">Password*</label>
+      <div class="password-wrapper">
+        <input type="password" id="password" />
+        <span class="material-icons eye-icon">visibility</span>
+      </div>
+      <a href="#" class="forgot-link">FORGOT PASSWORD?</a>
+    </div>
+
+    <div class="checkbox-group">
+      <input type="checkbox" id="remember" checked>
+      <label for="remember">Remember Me</label>
+    </div>
+
+    <button class="login-btn">LOG IN</button>
+  </div>
+</body>
+</html>

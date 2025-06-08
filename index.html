@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- Add this inside your <head> tag -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="icons/logo used in header.svg" alt="">
+            </div>
+        </header>
+        <main>
+            <div class="form-container">
+                <div class="form-heading">
+                    <div class="back-button">
+                        <button>
+                            <i class="fas fa-arrow-left"></i>
+                        </button>
+                    </div>
+                    <div class="form-text">Login with Quantum</div>
+                </div>
+                <div class="radio-group">
+                    <label>
+                        <input type="radio" name="schoolType" checked> District
+                    </label>
+                    <label>
+                        <input type="radio" name="schoolType"> Independent school
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label for="state">State*</label>
+                    <select id="state">
+                        <option>Alabama</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="district">District*</label>
+                    <select id="district">
+                        <option>Alabama School District</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <!-- <label for="username">Username/Email ID*</label> -->
+                    <input placeholder="Username/Email ID*" type="text" id="username" />
+                    <a href="#" class="forgot-link">FORGOT USERNAME?</a>
+                </div>
+
+                <div class="form-group password-group">
+                    <!-- <label for="password">Password*</label> -->
+                    <div class="password-wrapper">
+                        <input placeholder="Password*" type="password" id="password" />
+                        <span class="material-icons eye-icon">visibility</span>
+                    </div>
+                    <a href="#" class="forgot-link">FORGOT PASSWORD?</a>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="remember" checked>
+                    <label for="remember">Remember Me</label>
+                </div>
+
+                <button class="login-btn">LOG IN</button>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-top">
+                <div class="About">About</div>
+                <div class="divide"></div>
+                <div class="Contact Us">Contact Us</div>
+            </div>
+            <div class="footer-bottom">
+                <div> <img src="icons/logo used in header.svg" alt="" class="logo-footer"></div>
+                <div class="divide1"></div>
+                <div class="copyright">Copyright 2020-2021</div>
+                <div class="copyright1">Zeus Systems Pvt. Ltd.</div>
+                <div class="copyright2">All rights reserved</div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
